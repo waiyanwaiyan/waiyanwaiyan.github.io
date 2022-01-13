@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+     <form action="save.php" method="POST">
+     <label for="name">Name</label> 
+     <input type="text" name="stu name" id="name" placeholder="Enter Your Name" required>
+     <br><br>
+     <label  for="email">Email</label> 
+     <input type="text" name="stu email" id="email" required>
+     <br><br>
+     <button>Save</button>
+     <br><br>
+     <label for="password">Password</label>
+     <input type="password" name="stu password" id="password">
+     <br><br>
+     <label for="phone">Phone no.</label>
+     <input typr="number" name="stu phone" id="phone" value="09764257676" readonly>
+     <br><br>
+     <label for="passport">Passport</label>
+     <input type="file" accept="image/*" name="stu passport" id="passport">
+     <br><br>
+     <label for="year">Year</label>
+     <select name="stu year"id="year">
+         <option value="">Choose Year</option>
+         <option value="First">First Year</option>
+         <option value="Second">Second Year</option>
+         <option value="Third">Third Year</option>
+     </select> 
+     <br><br>
+     <label for="dob">Date of Birth</label>
+     <input type="date" name="stu dob" id="Date of Birth">
+     <br><br>
+     <label for="">Gender</label>
+     <br><br>
+     <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+     <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+     <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+     <br><br>
+     <label for="">Hobby</label><br>
+     <input type="Checkbox" name="karate" id="karate" value="karate"><label for="karate">Karate</label>
+     <input type="Checkbox" name="Travelling" id="Travelling" valeue="Travelling"><label for="Teavelling">Travelling</label>
+     <input type="Checkbox" name="Gaming" id="Reading" value="Gaming"><label for="Gaming">Gaming</label>
+     <br><br>
+     <label for="address">Adderss</label>
+     <textarea name="stu adderss" id="Address" cols="30" rows="10"></textarea>
+     <br><br>
+     <input type="Time" name="" id=""> 
+     <input type="datetime-local" name="" id=""> 
+     <input type="color" name="" id=""> 
+     <input type="range" name="" id=""> 
+     <br><br>
+          <button type="submit">Save</button>
+    </form>
+</body>
+</html>

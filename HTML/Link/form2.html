@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Student Information Forn</h1>
+    <form action="save.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="stu name" id="name">
+        <br><br>
+        <label for="email">Email</label>
+        <input for="text" name="stu email" id="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu password" id="password">
+        <br><br>
+        <label for="phone">Phone No.</label>
+        <input type="number" name="stu phone" id="phone">
+        <br><br>
+        <label for="passport">Passport</label> 
+        <input type="file" accept="image/*" name="stu passsport" id="passport">
+        <br></br>
+        <label for="year">Year</label>
+        <select name="year" id="Year">
+        <option value="">Choose Year</option>
+        <option value="first">First Year</option>
+        <option value="second">Second Year</option>
+        </select>
+        <br><br>
+        <button type="submit">Save</button>
+    </form>
+    
+</body>
+</html>
