@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Pass</title>
+</head>
+<body>
+    <h1>Exam Pass</h1>
+    <form name = "myForm">
+        <label for="Tubro C">Tubro C</label>
+        <input type="type" name="stuTubroC" id="TubroC" placeholder="Enter Tubro C Mask" required>
+        <br><br>
+        <label for ="Java">Java</label>
+        <input type ="type" name="stuJava" id="Java" placeholder="Enter Java Mask" required>
+        <br><br>
+        <label for ="JavaScript">JavaScript</label>
+        <input type ="type" name="stuJavaScript" id="JavaScript" placeholder="Enter JavaScript Mask" required>
+        <br><br>
+        <button type="button" onclick="result()">Result</button>
+
+    
+
+    </form>
+    <script>
+        function resultela() {
+            // alert ("Hello")
+            let TubroC= document.myForm.stuTubroC.value;
+            console.log(TubroC);
+            let Java= document.myForm.stuJava.value;
+            console.log(Java);
+            let JavaScript= document.myForm.stuJavaScript.value;
+            console.log(JavaScript);
+
+            if (TubroC <50 || Java <50 || JavaScript <50 ){
+                document.write('<h1>This student is Fail!</h1>')
+            }else if ( TubroC >= 81 || Java >= 81 || JavaScript >=81){
+                document.write('<h1> This student is HOnours!');
+                }else{
+                document.write('<h1> This student is pass !<h1>');
+            }
+
+
+            
+         
+
+        
+
+
+        }
+    </script>
+    
+
+    
+</body>
+</html>
