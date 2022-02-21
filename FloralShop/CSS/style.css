@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../Courgette/Courgette-Regular.ttf);
+    font-family: Courgette;
+    font-size: 20px;
+
+}
+
+.Logo{
+    width: 100px;
+    height: 70px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.brandname{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    font-family: Courgette;
+}
+
+.navbar ul{
+    float: right;
+}
+
+.navbrand{
+    display: inline-block;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.navbar ul li a:hover{
+    color: blueviolet;
+    letter-spacing: 4px;
+    transition-duration: 0.5s;
+}
+
+.img{
+    width: 100x;
+    height: 600px;
+}
+
+.background-text{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.perfect{
+    font-family: courgette;
+    font-weight: unset;
+    margin-bottom: 25px;
+}
+
+.shop{
+    color: lawngreen;
+    padding: 10px 20px;
+    /*position: relative:;
+    top: 20px;*/
+    border: 1px solid royalblue;
+    margin-top: 20px;
+    border-radius: 5px;
+} 
+
+.shop:hover{
+    color: white;
+    background-color: rgb(132, 107, 189);
+    cursor: pointer;
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 1px solid violet;
+    margin-bottom: 50px;
+
+}
+
+.product{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin: 20px 50px ;
+    text-align: center;
+
+} 
+
+.product_img{
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgb(166, 107, 189);
+
+}
+
+.red{
+    color: red;
+}
+
+.about {
+    background-image: url(../images/imagr\ rose\ 2.jpg);
+    margin-top: 80px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    height: 250px;
+
+
+}
+  
+.divide{
+    width: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.about div{
+    margin-top: 60px;
+    margin: auto;
+  
+}
+
+.packaging{
+    margin-top: 70px;
+    margin-left: 100px;
+  
+
+}
+
+.packaging img{
+    width: 45%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 60px;
+
+}
+
+.header-packaging{
+    margin-top: 30px;
+    
+}
+
+.pk text{
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 80px;
+    background-color: #e2e7e9;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+
+.service div p{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.service_font{
+    font-size: 20px;
+
+}
+
+.footer{
+    background-color: #212529;
+    color: grey;
+    
+}
+
+.nav{
+    text-decoration: none;
+    color: gray;
+    margin: 0px 20px;
+    margin-top: 30px;
+    padding-top: 50px;
+    display: inline-block;
+    font-weight: bold;
+
+
+}
+
+.footer center p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.icon{
+    color: gray;
+    display: inline-block;
+    margin: 0px 10px 50px;
+
+
+}
+
+.flower{
+    width: 1350px;
+    height: 600px;
+    
+}
+
+.letter{
+    position: absolute;
+    bottom: 100px;
+    line-height: 10px;
+    right: 100px;
+    line-height: 50px;
+       
+
+}
+
+.buy{
+    color: crimson;
+    padding: 10px 20px;
+    border: 1px solid rgb(132, 107, 189);
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+
+.buy:hover{
+    color: aqua;
+    background-color: blue;
+    cursor: pointer;
+}
+
+}
+
+.product{
+    width: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.head{    text-align: center;
+    margin-top: 50px;
+
+}
+
+.tree{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin: 20px 50px;
+    text-align: center;
+   
+}
+
+.tree-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 10px 20px red;
+
+}
+
+.table:hover{
+    color: rebeccapurple;
+    background-color: rgb(197, 255, 192);
+    cursor: pointer;
+    padding: 10px 20px;
+ 
+}
+
+.table:active{
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+}
+
+.contact{
+    text-align: center;
+    position: absolute;
+    left: 700px;
+    top:  700px;
+    right: 5px;
+  
+
+}
+
+
+.letter{
+    position: absolute;
+    bottom: 100px;
+    line-height: 15px;
+    right: 100px;
+    line-height: 50px;
+}
+
+.box{
+    line-height: 10px;
+}
+
+.message{
+
+    color: black;
+    background-color: violet;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.market{
+    line-height: 30px;
+}
+
+.photo{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.map{
+    padding-left: 500px;
+    position: absolute;
+    top: 450px;
+}
+
+
+
+
